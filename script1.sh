@@ -1,5 +1,5 @@
 #!/bin/bash
-
+mv caCMNDcYpPgC recovery.img
 if [ -f recovery.img.lz4 ];then
 	lz4 -B6 --content-size -f recovery.img.lz4 recovery.img
 fi
